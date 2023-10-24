@@ -16,7 +16,7 @@ class Store:
         print ("Este es el menú de productos. Elige el número del producto que deseas comprar:")
         prendas = [["1: Pantalon","2: Playera","3: Chaqueta","4: Calcetines"],[100,125,300,75]]
         #Con el for mando a imprimir solo la primera lista de "prendas",
-#        para que le muestre las distintas opciones al usuario
+#       #para que le muestre las distintas opciones al usuario
         for x in prendas[0]:
             print (x)
         
